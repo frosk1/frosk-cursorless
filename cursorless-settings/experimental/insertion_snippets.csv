@@ -1,0 +1,10 @@
+Spoken form, Cursorless identifier
+if, ifStatement
+if else, ifElseStatement
+try, tryCatchStatement
+foreign, forEachStatement
+binder, bindernormal
+list comprehension, listComprehension
+with state, contextWith
+class pi, classDeclaration
+new funk, functionDeclarationWithType

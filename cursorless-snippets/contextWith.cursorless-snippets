@@ -1,0 +1,26 @@
+{
+  "contextWith": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "with $state as $statename:",
+          "\t$body"
+        ],
+        "variables": {
+          "statename": {
+            "formatter": "snakeCase"
+          }
+        }
+      }
+    ],
+    "description": "Bind function or arg",
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  }
+}

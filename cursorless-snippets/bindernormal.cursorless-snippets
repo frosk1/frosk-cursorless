@@ -1,0 +1,25 @@
+{
+  "bindernormal": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "$varname = $value"
+        ],
+        "variables": {
+          "varname": {
+            "formatter": "snakeCase"
+          }
+        }
+      }
+    ],
+    "description": "Bind function or arg",
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  }
+}
