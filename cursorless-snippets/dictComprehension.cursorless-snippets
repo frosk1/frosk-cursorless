@@ -1,5 +1,5 @@
 {
-    "listComprehension": {
+    "dictComprehension": {
         "definitions": [
             {
                 "scope": {
@@ -8,11 +8,11 @@
                     ]
                 },
                 "body": [
-                    "[$value for $element in $list]"
+                    "{$key : $value for $element in $list}"
                 ]
             }
         ],
-        "description": "Python list comprehension",
+        "description": "Python dict comprehension",
         "variables": {
             "value": {
                 "wrapperScopeType": "statement"

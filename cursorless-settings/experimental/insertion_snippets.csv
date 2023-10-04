@@ -5,6 +5,7 @@ try, tryCatchStatement
 foreign, forEachStatement
 binder, bindernormal
 list comprehension, listComprehension
+dict comprehension, dictComprehension
 with state, contextWith
 class pi, classDeclaration
 new funk, functionDeclarationWithType
