@@ -9,3 +9,5 @@ dict comprehension, dictComprehension
 with state, contextWith
 class pi, classDeclaration
 new funk, functionDeclarationWithType
+while, whileStatement
+main funk, mainFunc

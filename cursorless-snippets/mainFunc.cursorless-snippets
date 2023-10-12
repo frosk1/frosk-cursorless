@@ -1,0 +1,26 @@
+{
+  "mainFunc": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "if __name__ == '__main__':",
+          "\t$body"
+        ],
+        "variables": {}
+      }
+    ],
+    "variables": {
+      "body": {
+        "wrapperScopeType": "statement"
+      }
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  }
+}
