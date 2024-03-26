@@ -11,3 +11,4 @@ class pi, classDeclaration
 new funk, functionDeclarationWithType
 while, whileStatement
 main funk, mainFunc
+filepath, relativeFilePath

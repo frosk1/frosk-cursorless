@@ -1,0 +1,27 @@
+{
+  "relativeFilePath": {
+    "definitions": [
+      {
+        "scope": {
+          "langIds": [
+            "python"
+          ]
+        },
+        "body": [
+          "from pathlib import Path",
+          "script_dir = Path(__file__).parent",
+          "rel_obj_dir  = script_dir.joinpath('./$relpath')"
+        ],
+        "variables": {
+          "relpath": {
+          }
+        }
+      }
+    ],
+    "variables": {
+    },
+    "insertionScopeTypes": [
+      "statement"
+    ]
+  }
+}
